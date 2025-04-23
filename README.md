@@ -32,6 +32,8 @@ Sarah Cherian - LinkedIn
 
 Scott Glasgow - LinkedIn 
 
+Soham Patel - LinkedIn
+
 ## Academic partners
 Eren Cifi, PhD - Austin Peay State University
 
