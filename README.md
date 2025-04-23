@@ -22,17 +22,7 @@ We've moved our entire research presence to GitHub to become even more transpare
 **So here you are. When in doubt, as they say, read the (ahem) manual. :)**
 
 ## Who we are
-Tony Ramos - LinkedIn
-
-Oscar Wahlitinez - LinkedIn
-
-Anjal Parikh - LinkedIn
-
-Sarah Cherian - LinkedIn
-
-Scott Glasgow - LinkedIn 
-
-Soham Patel - LinkedIn
+Tony Ramos, Oscar Wahlitinez, Anjal Parikh, Sarah Cherian, Scott Glasgow, Soham Patel
 
 ## Academic partners
 Eren Cifi, PhD - Austin Peay State University
