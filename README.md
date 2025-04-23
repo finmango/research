@@ -1,7 +1,5 @@
 ## Why we exist
-Despite significant progress in recent decades, being financially educated or included does **NOT** mean being financially healthy. This is because many public and market systems operate sub-optimally, produce poor outcomes, and fail to provide equitable opportunity for all. Structural inequalities are pervasive.
-
-In response, we work with academic researchers and decision-makers — in public, government, and private sectors — to help make systems more effective, inclusive, and just. Our approach draws from both experience and evidence; it evolves as we learn from our partners and practice. We strive to address the root causes of economic inequality and transform systems to achieve equitable outcomes for millions.
+We collaborate with academic researchers and decision-makers — in public, government, and private sectors — to help make systems more effective, inclusive, and just. Our approach draws from both experience and evidence; it evolves as we learn from our partners and practice. We strive to address the root causes of financial health and transform systems to achieve equitable outcomes for millions.
 
 ## Why our data is unique
 Most studies using Google Trends rely on normalized Relative Search Volume (RSV) indices. These indices range from 0 to 100 and reflect a search term’s popularity relative to its peak within a defined time and region. Our study employs the Google Health Trends API to access actual conditional probability values. 
@@ -47,3 +45,5 @@ Christos Makridis, PhD - Arizona State Univeristy / Standford Univeristy
 
 ## Preliminary research partners
 Isabelle Mitchell (University of Virginia), Celia Cheng (University of Virginia), Phillip Pawlica (University of Virginia), Sam Solliday (University of Virginia), Xavier Ramos (University of Virginia), Daniel Zhang (Financial Futures) 
+
+## Learn more: [FinMango](https://www.finmango.org)
