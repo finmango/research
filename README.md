@@ -9,7 +9,7 @@ This approach yields:
 * More robust statistical analysis due to interpret-able, probabilistic-ally grounded metrics.
 * Cross-term and cross-time comparability, which is not possible with 0–100 RSV scales.
 
-As such, our method provides deeper insights into search behavior and allows for more precise linkages with outcomes.
+As such, our method provides deeper insights into search behavior and allows for more precise linkages.
 
 
 ## Why our website is on GitHub
