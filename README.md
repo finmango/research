@@ -31,19 +31,29 @@ Oscar Wahlitinez - LinkedIn
 Anjal Parikh - LinkedIn
 
 Sarah Cherian - LinkedIn
+
 Scott Glasgow - LinkedIn 
 
 ## Academic partners
 Eren Cifi, PhD - Austin Peay State University
+
 Madhavi Venkatesan, PhD - Northeastern University 
+
 Chen Zhang, PhD - Iowa State University 
+
 John Longo, PhD - Rutgers University 
+
 Christos Makridis, PhD - Arizona State Univeristy / Standford Univeristy
 
 ## Preliminary research partners
 Isabelle Mitchell - University of Virginia
+
 Celia Cheng - University of Virginia
+
 Phillip Pawlica - University of Virginia 
+
 Sam Solliday - University of Virginia
+
 Xavier Ramos - University of Virginia
+
 Daniel Zhang - Financial Futures
