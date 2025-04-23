@@ -25,8 +25,11 @@ We've moved our entire research presence to GitHub to become even more transpare
 
 ## Who we are
 Tony Ramos - LinkedIn
+
 Oscar Wahlitinez - LinkedIn
+
 Anjal Parikh - LinkedIn
+
 Sarah Cherian - LinkedIn
 Scott Glasgow - LinkedIn 
 
