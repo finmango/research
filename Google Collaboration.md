@@ -9,6 +9,8 @@ This approach yields:
 As such, our method provides deeper insights into search behavior and allows for more precise linkages.
 
 ## COVID-19 Open Data Project (🔴 Archived)
+*<a href="[https://github.com](https://health.google.com/covid-19/open-data/)" target="_blank">Google project archive page</a>
+
 * [Google project archive page](https://health.google.com/covid-19/open-data/)
 * [FinMango project archive page](https://www.finmango.org/covid)
 * [Github page](https://github.com/open-covid-19/data)
