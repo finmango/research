@@ -1,4 +1,4 @@
-## Google Health Trends (Currently Work)
+## Google Health Trends (Active)
 Most studies using Google Trends rely on normalized Relative Search Volume (RSV) indices. These indices range from 0 to 100 and reflect a search term’s popularity relative to its peak within a defined time and region. Our study employs the Google Health Trends API to access actual conditional probability values. 
 
 This approach yields:
