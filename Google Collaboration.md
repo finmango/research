@@ -1,4 +1,4 @@
-## Google Health Trends (Active)
+## Google Health Trends (🟢 Active)
 Most studies using Google Trends rely on normalized Relative Search Volume (RSV) indices. These indices range from 0 to 100 and reflect a search term’s popularity relative to its peak within a defined time and region. Our study employs the Google Health Trends API to access actual conditional probability values. 
 
 This approach yields:
@@ -8,7 +8,7 @@ This approach yields:
 
 As such, our method provides deeper insights into search behavior and allows for more precise linkages.
 
-## COVID-19 Open Data Project (Archived)
+## COVID-19 Open Data Project (🔴 Archived)
 * [Google project archive page](https://health.google.com/covid-19/open-data/)
 * [FinMango project archive page](https://www.finmango.org/covid)
 * [Github page](https://github.com/open-covid-19/data)
