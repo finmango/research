@@ -1,4 +1,4 @@
-### More about our data
+# More about our data
 
 The **Google Health Trends API** provides access to anonymized, aggregated Google search activity data related to health topics. It is intended for non-commercial research by approved users and is especially useful for aligning real-world health phenomena with digital search behavior.
 
@@ -17,7 +17,7 @@ So:
 - The values **don’t represent search counts**.
 - Instead, they indicate **how popular a topic was**, relative to total search activity at that time and place.
 
-#### Granularity
+## Granularity
 - **Geographic Resolution**:
   - `country` (e.g., `"US"`)
   - `region` (e.g., `"US-NY"` for New York State)
@@ -31,12 +31,8 @@ So:
 
 This granularity allows researchers to tailor queries to the **temporal and spatial scale** of their real-world research questions — from daily city-level analysis to national annual trends.
 
+## 🔗 Additional Notes
 
-#### 🔗 Additional Notes
-
-- Data is drawn from a **random sample** of Google searches, updated daily.
+- Data is drawn from a **random sample** of Google searches made since 2004, updated daily.
 - Zeros may indicate **no activity** or **insufficient distinct queries** for privacy protection.
-- Each request is limited to:
-  - 2 queries per second (QPS)
-  - 5,000 queries per day
-  - 2,000 data points per query (terms × time × resolution)
+
