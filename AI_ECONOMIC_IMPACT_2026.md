@@ -28,9 +28,9 @@ Anyone trying to track AI's economic impact today is working with three kinds of
 
 The official labor-market series (BLS unemployment, OEWS occupational employment, JOLTS) are the most trustworthy numbers anyone has, but they lag. State unemployment (LAUS) lands roughly three weeks after the reference month — fast, but not occupation-specific. Occupational employment (OEWS) is annual and publishes on the order of a year after its reference period. By the time the occupation-level data confirms a shift, the households living through it have absorbed months of stress. The latency we're trying to beat is measured in quarters, not weeks.
 
-The academic AI-exposure indices (Felten et al., Eloundou et al., Brynjolfsson) are useful for a different reason. They tell you which occupations are at risk. They don't tell you whether the risk has actually shown up yet, in which places, or how hard. Static maps, not flowing signals.
+The academic AI-exposure indices (Felten et al., Eloundou et al., Brynjolfsson) are useful for a different reason. They tell you which occupations are at risk. They don't tell you whether the risk has actually shown up yet, in which places, or how hard. Static maps, not flowing signals. The most recent evidence is starting to fill in the "has it shown up" question — Brynjolfsson, Chandar & Chen's November 2025 "Canaries in the Coal Mine" finds a ~16% relative employment decline for 22–25-year-olds in the most AI-exposed occupations since late 2022 — but it lands at the national/occupation level and on the lag of payroll and survey data, not the state-by-state, near-real-time read we're after.
 
-Then there's macro: CPI, productivity, GDP. Too aggregated to be useful here. A national productivity bump can sit on top of a serious local collapse in administrative-support occupations across three Midwestern metros and never show up.
+Then there's macro: CPI, productivity, GDP. Too aggregated to be useful here. Acemoglu's 2025 estimate puts AI's total-factor-productivity gain at well under 1% over a decade — modest in the aggregate, and that's exactly the problem: a small national productivity bump can sit on top of a serious local collapse in administrative-support occupations across three Midwestern metros and never show up.
 
 What's missing is the household-level read, stratified by AI exposure. The question isn't whether AI is changing the economy; it's whether the workers most exposed to it are showing financial stress, where, and how fast. We think the Barometer is the most direct way to answer that.
 
@@ -58,6 +58,8 @@ The four extensions below sit on top of this. The existing v2.4 methodology does
 ### 3.1 An AI-Exposure Layer Anchored in O\*NET
 
 For each SOC-coded occupation we'd build a composite AI-exposure score from three published indices: Felten/Raj/Seamans (AIOE), Eloundou et al. (GPT exposure), and Brynjolfsson's SML where it's available. Z-score normalize, equal-weight by default, and run the obvious sensitivity tests on alternative weightings.
+
+A note on prior art. The closest thing to this layer is Anthropic's "observed exposure" measure (Massenkoff & McCrory, 2026), which combines LLM capability assessments with real Claude usage data and deliberately weights automation over augmentation across ~800 O\*NET occupations — the same instinct behind our §3.2 augmentation/substitution split. We see that as a complement, not a competitor: it's a strong fourth candidate input to the composite (usage-grounded rather than task-theoretic), and we'd test adding it once licensing and update cadence are clear. Our contribution isn't a better exposure score; it's joining exposure to household financial-stress signals at the state level.
 
 To get from occupations to states, we use BLS OEWS state-level employment shares by SOC code:
 
@@ -138,7 +140,7 @@ We've thought hard about how to keep this honest, because the easiest failure mo
 
 The first is the obvious one. Compare quarterly signal levels against subsequently released BLS unemployment-by-occupation data. If the signal has any predictive content, it should lead realized unemployment by one to three months in high-exposure occupations. We're committing to a bar in advance: if, after four quarters of data, the signal doesn't show a statistically significant positive lead-lag correlation with realized occupational unemployment in high-exposure clusters (we'll pre-register the exact statistic and significance level before the first release), we treat the predictive claim as unsupported, say so publicly, and either re-scope the product to a descriptive-only signal or shelve it. Naming the kill condition before we have results is the point.
 
-The second is cross-checking against independent academic measures. Our state-aggregate exposure scores should correlate with regional exposure work like Acemoglu and Restrepo's. Divergence is informative.
+The second is cross-checking against independent measures. Our state-aggregate exposure scores should correlate with regional exposure work like Acemoglu and Restrepo's, with the ILO's 2025 occupational-exposure index, and with the state-level usage patterns in the Anthropic Economic Index. Divergence is informative.
 
 The third is the case-study check. Every release, we pick the top three state × occupation cells by signal change and look for real events (news, WARN notices) that plausibly explain the movement. When nothing matches, we go back to the ontology.
 
@@ -180,7 +182,7 @@ What we're not doing, and don't want to do: design post-AI economic systems, mod
 
 Four real ones, in no particular order:
 
-**Augmentation vs. substitution.** AI that augments knowledge workers can raise their earnings before any displacement shows up. The search ontology needs to distinguish the two and we don't have a clean test for it yet. We have ideas, but they're ideas, not results.
+**Augmentation vs. substitution.** AI that augments knowledge workers can raise their earnings before any displacement shows up — recent work separating the two (e.g., "Augmenting or Automating Labor?", arXiv:2503.19159, 2025; and the automation-weighting in Massenkoff & McCrory's observed-exposure measure) finds genuinely divergent wage and employment effects, which is precisely why we can't lump them together. The search ontology needs to make that distinction and we don't have a clean test for it yet. We have ideas, but they're ideas, not results.
 
 **Search-signal saturation.** Generic AI search interest is rising fast enough that displacement-specific queries risk drowning in the baseline. The divergence-from-baseline approach in §3.2 is our best current answer, but it needs empirical work before we trust it.
 
@@ -193,10 +195,20 @@ Four real ones, in no particular order:
 ## References
 
 ### AI Exposure Literature
+
+*Foundational exposure indices (the §3.1 composite inputs):*
 - Felten, E., Raj, M., & Seamans, R. (2021). Occupational, industry, and geographic exposure to artificial intelligence. *Strategic Management Journal*.
 - Eloundou, T., Manning, S., Mishkin, P., & Rock, D. (2023). GPTs are GPTs: An early look at the labor market impact potential of large language models. OpenAI / arXiv:2303.10130.
 - Brynjolfsson, E., Mitchell, T., & Rock, D. (2018). What can machines learn, and what does it mean for occupations and the economy? *AEA Papers and Proceedings*.
-- Acemoglu, D., & Restrepo, P. (2020). Robots and jobs: Evidence from US labor markets. *Journal of Political Economy*.
+
+*Recent evidence and methods (2024–2026):*
+- Brynjolfsson, E., Chandar, B., & Chen, R. (2025). *Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence.* Stanford Digital Economy Lab (November 2025). — Documents a ~16% relative employment decline for early-career workers (ages 22–25) in the most AI-exposed occupations since late 2022, with adjustment occurring through employment rather than compensation. Directly motivates §1.
+- Massenkoff, M., & McCrory, P. (2026). *Labor market impacts of AI: A new measure and early evidence.* Anthropic Economic Index (March 5, 2026). — Introduces "observed exposure," combining LLM capability assessments with real usage data and weighting automation over augmentation across ~800 O\*NET occupations. Closest prior art to the §3.1 exposure layer; see note there.
+- Anthropic Economic Index reports: *Uneven geographic and enterprise AI adoption* (Sept 15, 2025; all-U.S.-states usage data); *Economic primitives* (Jan 15, 2026); *Learning curves* (Mar 24, 2026). — State-level and occupation-level AI-usage data; relevant to the §3.1 state rollup and the augmentation/substitution split in §3.2.
+- Gmyrek, P., Berg, J., et al. (2025). *Generative AI and Jobs: A Refined Global Index of Occupational Exposure.* ILO Working Paper 140 (May 20, 2025). — An alternative occupational-exposure index; a candidate cross-check for §5.
+- Marguerit, D. (2025). *Augmenting or Automating Labor? The Effect of AI Development on New Work, Employment, and Wages.* arXiv:2503.19159 (March 24, 2025). — Separately measures automation vs. augmentation exposure and finds divergent wage effects by skill; informs the §3.2 / §8 augmentation-vs-substitution problem.
+- Acemoglu, D. (2025). The simple macroeconomics of AI. *Economic Policy*, 40(121), 13–58 (NBER WP 32487, 2024). — Argues aggregate TFP effects are modest, which is exactly why macro series can mask the local, occupation-specific stress this program targets (§1).
+- Acemoglu, D., & Restrepo, P. (2020). Robots and jobs: Evidence from US labor markets. *Journal of Political Economy*. — Regional-exposure cross-check referenced in §5.
 
 ### Data Sources (Proposed Additions)
 - O\*NET: https://www.onetonline.org/
@@ -210,6 +222,7 @@ Four real ones, in no particular order:
 
 ### Policy Context
 - OpenAI Foundation, *Economic Futures in the Age of AI* (May 2026)
+- International Center for Law & Economics (2025). *AI, Productivity, and Labor Markets: A Review of the Empirical Evidence.* — Useful survey of the still-mixed aggregate picture as of 2025.
 
 ---
 
