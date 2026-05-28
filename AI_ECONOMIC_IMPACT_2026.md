@@ -12,7 +12,7 @@
 
 If AI is going to break parts of the labor market over the next few years, the first place it'll show up isn't GDP. It's going to be in households: rent that doesn't get paid on time, food-bank lines that get longer in metros nobody was watching, search queries about reskilling at 2 a.m. The BLS will eventually confirm what happened, but by then the damage has already worked its way through people's savings, credit, and mental health.
 
-We've been running the **FinMango Financial Health Barometer** since 2024. It's a state-level signal that combines slow, authoritative government data (BLS, Census, HUD) with real-time behavioral data (Google Health Trends search volumes) and an academic anchor (Harvard JCHS on housing). Four indices today: Financial Anxiety, Food Insecurity, Housing Stress, and Affordability.
+We've been running the **FinMango Financial Health Barometer** since 2025. It's a state-level signal that combines slow, authoritative government data (BLS, Census, HUD) with real-time behavioral data (Google Health Trends search volumes) and an academic anchor (Harvard JCHS on housing). Four indices today: Financial Anxiety, Food Insecurity, Housing Stress, and Affordability.
 
 This brief makes a fairly narrow argument. We've already built the pipeline. With a focused set of extensions, the same pipeline can produce something that doesn't exist yet: a monthly, household-level read on how AI exposure is translating into financial stress, broken out by state and by the occupations most likely to be affected.
 
