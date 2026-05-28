@@ -16,7 +16,9 @@ We've been running the **FinMango Financial Health Barometer** since 2025. It's 
 
 This brief makes a fairly narrow argument. We've already built the pipeline. With a focused set of extensions, the same pipeline can produce something that doesn't exist yet: a monthly, household-level read on how AI exposure is translating into financial stress, broken out by state and by the occupations most likely to be affected.
 
-What follows: where current statistics fall short, the four pieces we'd add to the Barometer to fill that gap, and a 12-month plan for getting it shipped and validated. We're writing this with the OpenAI Foundation's May 2026 announcement in mind, but the work stands on its own merit either way.
+**What we're asking for:** funding and a research partnership to build the four extensions described here over 12 months. The estimated cost is roughly 1.5–2 FTE-years of engineering and research time (see §7). We're writing this with recent foundation interest in AI's labor effects in mind — including the OpenAI Foundation's May 2026 announcement — but the work stands on its own merit either way.
+
+What follows: where current statistics fall short, the four pieces we'd add to the Barometer to fill that gap, and a 12-month plan for getting it shipped and validated.
 
 ---
 
@@ -24,7 +26,7 @@ What follows: where current statistics fall short, the four pieces we'd add to t
 
 Anyone trying to track AI's economic impact today is working with three kinds of data, and each one has a hole in it.
 
-The official labor-market series (BLS unemployment, OEWS occupational employment, JOLTS) are the most trustworthy numbers anyone has, but they lag. State unemployment is monthly. Occupational employment is annual. By the time the data confirms a shift, the households living through it have absorbed months of stress.
+The official labor-market series (BLS unemployment, OEWS occupational employment, JOLTS) are the most trustworthy numbers anyone has, but they lag. State unemployment (LAUS) lands roughly three weeks after the reference month — fast, but not occupation-specific. Occupational employment (OEWS) is annual and publishes on the order of a year after its reference period. By the time the occupation-level data confirms a shift, the households living through it have absorbed months of stress. The latency we're trying to beat is measured in quarters, not weeks.
 
 The academic AI-exposure indices (Felten et al., Eloundou et al., Brynjolfsson) are useful for a different reason. They tell you which occupations are at risk. They don't tell you whether the risk has actually shown up yet, in which places, or how hard. Static maps, not flowing signals.
 
@@ -43,7 +45,7 @@ Quick context, since some of this is in the methodology doc already:
 | Financial Anxiety | BLS LAUS unemployment | "debt help", "bankruptcy" | — |
 | Food Insecurity | Census SAIPE poverty rate | "food bank near me" | — |
 | Housing Stress | Census ACS B25071, HUD FMR | "eviction help" | Harvard JCHS 2025 |
-| Affordability | Composite | — | — |
+| Affordability | Composite of the three above + cost-of-living adjustment | — | — |
 
 Indices land on an 80–200 scale, adjusted by regional multipliers, with full source attribution on every output. The pipeline runs daily for unemployment, monthly for housing prices, annually for the structural inputs.
 
@@ -67,6 +69,8 @@ The output lives at two granularities: an aggregate state score, and a state × 
 
 This works because everything underneath is public. O\*NET tasks, OEWS employment, the published exposure indices. Nothing proprietary, nothing we can't show our work on. The cadence is annual, set by OEWS.
 
+We start at the state level not because it's the finest resolution available — OEWS supports MSA-level analysis in many states, and the argument in §1 about damage hiding in specific metros is exactly why we expect to go finer — but because state matches the existing Barometer's geography and search-signal sample sizes are largest there. State is the launch granularity; validation (§8) tells us where it's safe to push down to MSA.
+
 ### 3.2 An AI-Distress Search Ontology
 
 The current Barometer pulls Google Health Trends signals for things like "eviction help" and "food bank near me." We'd add a fifth category for AI-displacement distress. Some candidate terms, all of which need signal-to-noise testing before they go live:
@@ -74,7 +78,7 @@ The current Barometer pulls Google Health Trends signals for things like "evicti
 - **Displacement awareness:** "will AI take my job", "AI replaced me", "job to AI"
 - **Reskilling intent:** "reskill from [occupation]", "career change at 40", "learn to code 2026"
 - **Acute distress:** "laid off tech", "severance negotiation", "unemployment after layoff"
-- **Adaptation (tracked separately):** "use ChatGPT at work", "AI tools for [occupation]" — this is augmentation, not displacement, and conflating them is a known failure mode
+- **Adaptation (tracked separately):** "use ChatGPT at work", "AI tools for [occupation]" — this is augmentation, not displacement, and conflating them is a known failure mode. Cleanly separating augmentation from substitution is our hardest open problem; see §8.
 
 The trick is normalization. Generic AI search interest is going up regardless of whether anyone is actually losing their job, so a raw spike in "will AI take my job" doesn't mean much. The signal is the *divergence* from the baseline. We'd validate the ontology against announced layoffs (next section) and against the state-level exposure scores from §3.1. If both correlate, the signal is real.
 
@@ -82,7 +86,7 @@ The trick is normalization. Generic AI search interest is going up regardless of
 
 Two additional structural inputs ground the search data in actual events:
 
-- **WARN Act notices.** State-mandated layoff disclosures (50 or 100 employees depending on jurisdiction). Some states publish APIs, some have to be scraped or compiled from PDFs.
+- **WARN Act notices.** Layoff disclosures triggered at 100 affected employees under the federal WARN Act, with many state "mini-WARN" laws setting lower thresholds (often 50, sometimes fewer). Some states publish APIs, some have to be scraped or compiled from PDFs.
 - **BLS JOLTS.** Industry-level openings and turnover, monthly.
 
 For each layoff event we'd code the affected occupations to SOC and compute an exposure-weighted layoff intensity by state and quarter:
@@ -93,7 +97,7 @@ AILayoffIntensity_state,q = Σ_event (workers × ExposureScore_occ) / labor_forc
 
 Why bother with the weighting? Because a 500-person warehouse layoff and a 500-person paralegal layoff look identical in standard layoff statistics and mean completely different things for an AI-impact measurement. The first is a logistics story; the second is a substitution story.
 
-### 3.4 A State × Industry Signal Cube
+### 3.4 A State × Occupation Signal Cube
 
 Right now the Barometer publishes at one dimension: state. The extension adds a second: occupation cluster. We'd start with six clusters chosen because their AI exposure varies a lot:
 
@@ -104,7 +108,9 @@ Right now the Barometer publishes at one dimension: state. The extension adds a 
 5. Transportation and material moving (SOC 53) — moderate, mostly autonomous-systems exposure
 6. Education, training, and library (SOC 25) — moderate, AI-tutor substitution risk
 
-What this enables is statements like:
+Not every index stratifies cleanly by occupation. Financial Anxiety is the natural candidate: its government input (LAUS unemployment) and several search signals can be apportioned to occupation clusters via OEWS employment shares. Food Insecurity and Housing Stress rest on inputs (poverty rate, rent burden) and search terms ("food bank near me," "eviction help") that carry no occupational signal, so those stay state-only for now. The cube is therefore primarily an *anxiety-by-occupation* layer sitting alongside the existing state-level indices, not a full occupation breakout of all four. We'd be explicit about that in the published methodology.
+
+What this enables is statements like (illustrative numbers, not real output):
 
 > Financial Anxiety for SOC 43 (administrative support) in Ohio rose 18 points between Q1 and Q2 2026 against a state aggregate change of +4. AI-exposed occupations are driving 80% of the state's anxiety increase.
 
@@ -122,13 +128,15 @@ A **quarterly AI Impact Brief**, 8 to 12 pages, with state-level vignettes descr
 
 **Open data and a REST API.** State × occupation × month time series under MIT license, methodology documentation alongside. The existing FinMango open-by-default posture extends to this.
 
+A note on privacy. Every input is already aggregated — Google Health Trends is published at population scale, and the government series are public — so there's no individual-level data anywhere in the pipeline. But thinly populated state × occupation cells can still produce unstable or quasi-identifying estimates. We'll suppress any cell below a minimum employment count (threshold set during validation, likely on the order of the OEWS suppression rules we already inherit) and flag low-confidence cells rather than publish a noisy point estimate as if it were solid.
+
 ---
 
 ## 5. How We'll Know If It Works
 
 We've thought hard about how to keep this honest, because the easiest failure mode for a signal product is to publish something nobody can falsify. Three validation paths, each one good enough on its own:
 
-The first is the obvious one. Compare quarterly signal levels against subsequently released BLS unemployment-by-occupation data. If the signal has any predictive content, it should lead realized unemployment by one to three months in high-exposure occupations. If it doesn't, we publish that result and reconsider the methodology.
+The first is the obvious one. Compare quarterly signal levels against subsequently released BLS unemployment-by-occupation data. If the signal has any predictive content, it should lead realized unemployment by one to three months in high-exposure occupations. We're committing to a bar in advance: if, after four quarters of data, the signal doesn't show a statistically significant positive lead-lag correlation with realized occupational unemployment in high-exposure clusters (we'll pre-register the exact statistic and significance level before the first release), we treat the predictive claim as unsupported, say so publicly, and either re-scope the product to a descriptive-only signal or shelve it. Naming the kill condition before we have results is the point.
 
 The second is cross-checking against independent academic measures. Our state-aggregate exposure scores should correlate with regional exposure work like Acemoglu and Restrepo's. Divergence is informative.
 
@@ -163,6 +171,8 @@ What we're not doing, and don't want to do: design post-AI economic systems, mod
 | 5. Validation studies | 4–9 | Concurrent + cross-validation results published |
 | 6. First Quarterly AI Impact Brief | 6 | Public release; partner distribution |
 | 7. Open API + dataset release | 9–12 | Full programmatic access |
+
+**Resourcing.** The plan assumes roughly 1.5–2 FTE-years across the 12 months: one data engineer (pipeline extensions, WARN/JOLTS ingestion, dashboard) and a part-time research lead (exposure scoring, ontology design, validation studies), with existing FinMango infrastructure and hosting absorbing the rest. We'll firm up a line-item budget with any committed partner before Phase 1 kicks off.
 
 ---
 
