@@ -47,10 +47,11 @@ That's the paper.
 ### C. Search-based nowcasting (the method precedent, still to read)
 - Choi and Varian (2012), Predicting the Present with Google Trends. The seed.
 - D'Amuri and Marcucci, Google Trends for unemployment forecasting. Track down.
-- [authors TO VERIFY] (2023). "Nowcasting Unemployment Using Neural Networks and
-  Multi-Dimensional Google Trends Data." Economies 11(5):130, MDPI. Finds that
-  searches like "Unemployment" and "Severance Pay" surged before initial jobless
-  claims, and that distress keywords beyond pure job-search terms (mental health,
+- Grybauskas, Pilinkienė, Lukauskas, Stundžienė and Bruneckienė (2023).
+  "Nowcasting Unemployment Using Neural Networks and Multi-Dimensional Google
+  Trends Data." Economies 11(5):130, MDPI. Finds that searches like
+  "Unemployment" and "Severance Pay" surged before initial jobless claims, and
+  that distress keywords beyond pure job-search terms (mental health,
   consumption, and so on) improve forecasting. Useful precedent that search can
   lead claims, and that a multi-dimensional distress ontology helps.
 - Add: recent Google Health Trends methodology and the privacy/aggregation work.
@@ -65,7 +66,7 @@ That's the paper.
 | Massenkoff and McCrory 2026 | B | observed-exposure method | exposure neighbor, but occupation-level only, contemporaneous, null result; not our closest | yes |
 | Canaries 2025 | B | the effect is real but late | our signal aims to get ahead of it | yes |
 | Frank, Ahn and Moro 2025 | B | exposure ensemble predicts state-by-occupation UI risk | closest neighbor; we add the search input and the lead test | yes |
-| [authors TO VERIFY] 2023 (Economies 11(5):130) | C | distress searches lead jobless claims; multi-dim ontology helps | method precedent for our search signal | no |
+| Grybauskas et al. 2023 (Economies 11(5):130) | C | distress searches lead jobless claims; multi-dim ontology helps | method precedent for our search signal | no |
 | | | | | |
 
 ## 2.4 The related-work paragraph
