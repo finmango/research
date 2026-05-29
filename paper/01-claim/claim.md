@@ -3,21 +3,37 @@
 One sentence. Falsifiable. Everything after it answers to it. If a result
 wouldn't change whether that sentence is true, it doesn't go in the paper.
 
-## 1.1 The claim (edit this until it's right)
+## 1.1 The claim (locked)
 
-> A search-behavior plus AI-exposure signal leads realized occupational
-> unemployment by ___ months in high-exposure occupations across US states,
-> with [statistic] of at least [threshold].
+> In the generative-AI period, a combined AI-exposure and household
+> financial-stress search signal at month t leads realized occupational
+> unemployment at month t+k, for k of 1 to 3 months, among high-exposure
+> occupations across US states.
 
-What we have to nail down:
+The falsifiable number behind it: in a panel regression of occupational
+unemployment at t+k on the standardized signal at t, the sum of the
+distributed-lead coefficients over k of 1, 2 and 3 is positive at the 5 percent
+level. We report it next to the lead-lag cross-correlation by k and an
+out-of-sample comparison against an autoregressive baseline.
 
-- The lead window. One to three months? Whatever we pick goes in the
-  pre-registration and we don't move it later.
-- The outcome series. BLS occupational unemployment, LAUS, or CPS.
-- What "high exposure" means. Top third or top quarter of the section 3.1
-  composite.
-- The headline number. Cross-correlation at lag k, a Granger-style test, or how
-  much we beat a no-signal nowcast.
+The decisions, now locked. These flow straight into the pre-registration and we
+don't move them later.
+
+- Lead window. k of 1, 2 and 3 months. The primary test is the distributed-lead
+  specification over all three at once, and we report each k. No picking the
+  best k after the fact.
+- Outcome series. The unemployment rate for each state, occupation cluster, and
+  month, from CPS microdata (IPUMS-CPS), on a 3-month rolling basis to tame the
+  sampling noise, with thin cells suppressed below the pre-registered floor.
+  LAUS state unemployment and national unemployment by occupation cluster are
+  the robustness brackets. CPS is the only public series that is monthly and
+  occupational at once: OEWS is annual, LAUS is not occupational.
+- High exposure. Top tercile of the composite exposure score (Felten, Eloundou,
+  Brynjolfsson, z-scored and equal-weighted), employment-weighted across
+  detailed occupations. The bottom tercile is the placebo comparison (H2).
+- Headline statistic. The distributed-lead coefficient sum above, with
+  state-by-cluster and month fixed effects and standard errors clustered by
+  state and by occupation cluster.
 
 ## 1.2 What's actually new
 
@@ -57,4 +73,4 @@ Result comes back null? Still a paper. A careful negative result that bounds how
 much search behavior can tell us about displacement is worth publishing. Write
 that down now. It's the thing that makes pre-registering safe.
 
-Status: draft / reviewed with co-author / locked
+Status: locked as drafted. Co-author sign-off pending.

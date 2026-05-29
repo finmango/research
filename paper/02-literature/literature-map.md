@@ -71,7 +71,22 @@ That's the paper.
 
 ## 2.4 The related-work paragraph
 
-Write this last, once the table is full. About 150 words. Cover A, B and C, then
-name the gap. Don't pad it.
+Draft, about 160 words. Tighten once the reading log is full.
 
-Status: areas scoped / reading log filled / gap paragraph written
+Three literatures bear on this paper, and none of them does what we do. The
+first measures AI exposure, meaning which occupations are at risk: Felten, Raj
+and Seamans (2021), Eloundou et al. (2023), Brynjolfsson et al. (2018), the
+ILO's 2025 refined index, and Massenkoff and McCrory's (2026) observed-exposure
+measure. It tells you where risk concentrates, not whether it has landed. The
+second documents the effects that have already landed: Brynjolfsson, Chandar and
+Chen (2025) find a roughly 16 percent relative employment drop for young workers
+in exposed jobs, and Frank, Ahn and Moro (2025), our closest neighbor, join
+exposure scores to state-by-occupation unemployment risk. But Frank et al. use
+exposure against realized claims, treat it contemporaneously, and stop in 2019,
+before ChatGPT. The third nowcasts unemployment from search (Choi and Varian
+2012; Grybauskas et al. 2023) and finds distress searches can lead claims.
+Nobody has joined a high-frequency household financial-stress search signal to
+AI exposure and tested it as a leading indicator of occupational unemployment in
+the generative-AI period. That is this paper.
+
+Status: gap paragraph drafted. Reading log still to be filled as we read.
