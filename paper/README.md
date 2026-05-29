@@ -35,9 +35,9 @@ and 5 are the real work, and everything else waits on them.
 
 ## Where we are
 
-- [ ] 1. Claim locked. One sentence we both agree on.
-- [ ] 2. Literature mapped. Gap written, about 20 sources read.
-- [ ] 3. Pre-registration posted. Timestamp in hand.
+- [x] 1. Claim locked as drafted. One sentence, fully operationalized. Co-author sign-off pending.
+- [ ] 2. Literature mapped. Gap paragraph drafted; full reading (about 20 sources) still to do.
+- [ ] 3. Pre-registration drafted and ready for sign-off. Not yet posted, no timestamp.
 - [ ] 4. Data assembled and frozen. Versioned snapshot and dictionary.
 - [ ] 5. Analysis run. Headline result and robustness done.
 - [ ] 6. Manuscript drafted. Full draft through the limitations.
