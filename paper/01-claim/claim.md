@@ -23,11 +23,18 @@ What we have to nail down:
 
 Three or four bullets, no more. First pass:
 
-- A new measure. Nobody has joined occupational AI-exposure to household
-  financial-stress signals (search, housing, food) at the state by occupation
-  level. The exposure half exists already. The join doesn't. That's ours.
-- We validate it as a leading indicator. We test whether the signal gets ahead
-  of realized occupational unemployment, and we set the kill condition first.
+- A new input. Our signal is built from high-frequency household
+  financial-stress search behavior (search, housing, food), not from exposure
+  scores or realized unemployment claims. The exposure half exists already.
+  Frank, Ahn and Moro (2025) even joined exposure to state-by-occupation
+  unemployment risk already, so that join is not ours to claim. The
+  search-based distress input is what's new.
+- The leading-indicator test. This is our cleanest claim. Everyone in this
+  space measures contemporaneously or looks backward. We test whether the
+  signal leads realized occupational unemployment by one to three months, and
+  we set the kill condition first. Frank et al. stop in 2019, before ChatGPT.
+  We work in the generative-AI period and ask whether the signal gets ahead of
+  the realized data.
 - It's open. Public, reproducible pipeline and dataset under MIT, built on the
   Barometer we already run.
 - And if we can manage it, a real handle on augmentation versus substitution.
@@ -37,6 +44,8 @@ Three or four bullets, no more. First pass:
 
 - Not a causal paper. We never say AI caused anyone's distress.
 - Not a new exposure index. We combine ones that already exist.
+- Not the first to join exposure to state-by-occupation unemployment. Frank et
+  al. did that. We add the search signal and the lead test.
 - Not policy, not UBI. Not our lane, same as section 6 of the brief.
 
 ## 1.4 The "so what"
