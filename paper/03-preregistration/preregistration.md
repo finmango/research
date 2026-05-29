@@ -1,66 +1,65 @@
-# Step 3 — Pre-Registration
+# Step 3. Pre-Registration
 
-**Goal:** lock the design *before* touching any outcome data, and post it with
-a timestamp (OSF Registries or AsPredicted). This is the single biggest
-credibility multiplier for a measurement paper. It is also your defense
-against "did you fish for this result?"
+Lock the design before we touch any outcome data. Then post it somewhere with a
+timestamp (OSF Registries or AsPredicted). For a measurement paper this is the
+single biggest thing we can do for credibility. It's also our answer the day
+someone asks if we fished for the result.
 
-**Rule:** complete and post this *before* downloading/merging BLS occupational
-unemployment (the outcome). Exposure and search inputs can be built first.
-
----
+The rule is simple. Finish this and post it before we pull or merge the BLS
+occupational unemployment data, because that's the outcome. The exposure and
+search inputs can be built first. The outcome waits.
 
 ## 3.1 Hypotheses
 
-- **H1 (primary).** The joined AI-distress signal at time *t* is positively
-  associated with realized occupational unemployment at *t + k* (k = 1–3
-  months) in high-exposure occupations.
-- **H2 (placebo).** No such lead exists in low-exposure occupations.
-- **H3 (optional).** Augmentation-coded search terms do *not* predict
-  unemployment; substitution-coded terms do.
+- H1, the main one. The joined AI-distress signal at time t is positively
+  related to realized occupational unemployment at t plus k, with k between one
+  and three months, in high-exposure occupations.
+- H2, the placebo. No such lead shows up in low-exposure occupations.
+- H3, optional. Augmentation-coded search terms don't predict unemployment.
+  Substitution-coded terms do.
 
-## 3.2 Variables (pre-specify exactly)
+## 3.2 Variables (spell every one out)
 
-- **Exposure score** — composite of Felten/Eloundou/Brynjolfsson, z-scored,
-  **equal-weighted** by default. State rollup via OEWS employment shares
-  (formula in brief §3.1).
-- **Search signal** — ontology in brief §3.2, normalized as
-  **divergence-from-baseline** (define baseline window: trailing __ months).
-- **Outcome** — [BLS occupational unemployment / LAUS]; reference period and
-  vintage fixed here.
-- **High-exposure cutoff** — [top tercile / quartile] of composite.
+- Exposure score. Composite of Felten, Eloundou and Brynjolfsson, z-scored,
+  equal-weighted by default. State rollup uses OEWS employment shares, formula
+  in brief section 3.1.
+- Search signal. The ontology from brief section 3.2, normalized as divergence
+  from baseline. Set the baseline window here: trailing ___ months.
+- Outcome. BLS occupational unemployment or LAUS. Fix the reference period and
+  the vintage now.
+- High-exposure cutoff. Top third or top quarter of the composite.
 
-## 3.3 Analysis plan (pre-specify the statistic AND the threshold)
+## 3.3 Analysis plan (name the statistic and the threshold)
 
-- Primary test: [cross-correlation at lag k / panel regression with leads /
-  out-of-sample nowcast vs. AR baseline].
-- **Significance / decision threshold:** ____.
-- Multiple-comparison handling across states/clusters: ____.
+- The primary test: cross-correlation at lag k, panel regression with leads, or
+  an out-of-sample nowcast against an AR baseline.
+- Decision threshold: ___.
+- How we handle multiple comparisons across states and clusters: ___.
 
-## 3.4 Kill condition (from brief §5 — the pre-committed bar)
+## 3.4 Kill condition (from brief section 5)
 
-> If, after four quarters of data, the signal does not show a statistically
+> If, after four quarters of data, the signal doesn't show a statistically
 > significant positive lead-lag correlation with realized occupational
-> unemployment in high-exposure clusters (at the threshold in §3.3), we treat
-> the predictive claim as unsupported, publish that result, and re-scope to a
+> unemployment in high-exposure clusters at the threshold above, we treat the
+> predictive claim as unsupported, we publish that, and we either re-scope to a
 > descriptive-only signal or shelve it.
 
-## 3.5 Data exclusions & suppression (pre-specify)
+We decide this now, while we still don't know the answer. That's the point.
 
-- Suppress state × occupation cells below employment count N = ____.
-- Search series below volume floor ____ flagged low-confidence.
+## 3.5 Exclusions and suppression (set in advance)
 
-## 3.6 Sample & period
+- Suppress any state by occupation cell below employment count N of ___.
+- Flag any search series below volume floor ___ as low confidence.
 
-- States: all 50 + DC. Period: ____ to ____. Frequency: monthly/quarterly.
+## 3.6 Sample and period
+
+- States: all 50 plus DC. Period: ___ to ___. Frequency: monthly or quarterly.
 
 ## 3.7 Registration record
 
-- Platform: ☐ OSF Registries  ☐ AsPredicted
-- URL: ____
-- Timestamp: ____
-- Frozen commit of this file: ____
+- Platform: OSF Registries or AsPredicted.
+- URL: ___
+- Timestamp: ___
+- Frozen commit of this file: ___
 
----
-
-**Status:** ☐ drafted  ☐ co-author sign-off  ☐ POSTED (timestamp obtained)
+Status: drafted / co-author sign-off / posted with timestamp

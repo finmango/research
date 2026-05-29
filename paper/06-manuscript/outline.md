@@ -1,58 +1,63 @@
-# Step 6 — Manuscript Outline
+# Step 6. Manuscript Outline
 
-**Blocked until Step 5 produces a result.** Standard empirical-paper
-structure. Methods + Results carry the paper; the brief's prose becomes a
-tight intro. Target ~8,000–10,000 words for a working paper.
+Blocked until step 5 gives us a result. Don't draft prose before then. We'd just
+be writing a wish list.
 
----
+Standard empirical structure. The methods and the results carry the paper. The
+prose from the brief becomes a tight intro. Aim for 8,000 to 10,000 words for a
+working paper.
 
 ## Title
-*Do AI-Exposed Workers Show Financial Stress First? A State × Occupation
-Leading-Indicator Approach* (working)
+Do AI-Exposed Workers Show Financial Stress First? A State by Occupation
+Leading-Indicator Approach. Working title.
 
-## Abstract (~150 words)
-See `abstract.md`.
+## Abstract
+About 150 words. See `abstract.md`.
 
 ## 1. Introduction
-- The latency gap: BLS confirms displacement quarters late (brief §1).
-- The question: do exposed workers show financial stress *first*, where, how fast?
-- Contribution bullets (from `../01-claim/claim.md` §1.2).
-- One-line preview of the result.
+- The lag. The BLS confirms displacement quarters late (brief section 1).
+- The question. Do exposed workers show financial stress first? Where, and how
+  fast?
+- The contribution bullets, from `../01-claim/claim.md` section 1.2.
+- One line previewing the result.
 
 ## 2. Related Work
-- Strands A/B/C and the gap paragraph (from `../02-literature/`).
+- Areas A, B and C, plus the gap paragraph, from `../02-literature/`.
 
 ## 3. Data
-- Public inputs, the join, frozen snapshot (from `../04-data/`).
-- Table: sources, granularity, cadence.
+- The public inputs, the join, the frozen snapshot. From `../04-data/`.
+- A table of sources, granularity, and cadence.
 
 ## 4. Methods
-- 4.1 Exposure composite + state rollup (brief §3.1).
-- 4.2 Search ontology + divergence normalization (brief §3.2).
-- 4.3 Layoff weighting (brief §3.3).
-- 4.4 Lead-lag estimation strategy (= pre-registration §3.3).
+- 4.1 The exposure composite and the state rollup (brief section 3.1).
+- 4.2 The search ontology and the divergence normalization (brief section 3.2).
+- 4.3 The layoff weighting (brief section 3.3).
+- 4.4 The lead-lag estimation, which is just the pre-registration in prose.
 
 ## 5. Results
-- 5.1 Headline lead-lag result.
-- 5.2 Robustness (placebo, weighting, saturation, aug/sub, OOS).
+- 5.1 The headline lead-lag result.
+- 5.2 Robustness. Placebo, weighting, saturation, augmentation versus
+  substitution, out of sample.
 
 ## 6. Discussion
-- What the signal can and cannot do; the dashboard as the applied artifact.
+- What the signal can do, what it can't. The dashboard as the thing people
+  actually use.
 
 ## 7. Limitations
-- Expand brief §8 honestly: causation, saturation, geographic resolution,
-  aug/sub. State the measurement-not-causation frame explicitly.
+- Take brief section 8 and expand it, honestly. Causation, saturation,
+  geographic resolution, augmentation versus substitution. Say the
+  measurement-not-causation thing out loud.
 
 ## 8. Conclusion
-- The leading indicator (or the bounded null) and what's next.
+- The leading indicator, or the bounded null. And what comes next.
 
 ## References
-- Pull from `../../AI_ECONOMIC_IMPACT_2026.md` references (already audited).
+- Pull from the brief's reference list. It's already audited.
 
 ## Appendices
-- A: full ontology term list. B: weighting sensitivity tables.
-- C: suppression rules. D: link to replication package (Step 7).
+- A. The full ontology term list.
+- B. The weighting sensitivity tables.
+- C. The suppression rules.
+- D. A link to the replication package from step 7.
 
----
-
-**Status:** ☐ blocked (awaiting Step 5)  ☐ drafting  ☐ full draft
+Status: blocked, waiting on step 5 / drafting / full draft
