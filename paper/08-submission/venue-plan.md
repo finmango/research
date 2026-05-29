@@ -1,28 +1,33 @@
-# Step 8. Venue, Co-author, Timeline
+# Step 8. Publication and Collaboration
 
 We can plan this now. We run it last.
 
-## 8.1 The venue ladder (working paper first, journal after)
+## 8.1 Where this could go
 
-| Stage | Where | Why | The catch |
-|---|---|---|---|
-| 1, first | arXiv, SSRN, or NBER working paper | citable right away, no review gate, fits how we work | NBER needs an affiliated co-author |
-| 2 | A data or methods journal. Scientific Data, or the Journal of Economic and Social Measurement | rewards the pipeline and the validated method | peer review |
-| 2, other path | Applied econ or policy. Brookings, a labor journal | rewards the labor-economics framing | peer review |
-| 3, if we get one clean result | A short letter, PNAS-style | fastest, tightly scoped | very selective |
+A few honest options, depending on how the result lands.
 
-The plan: post a working paper the moment step 5 clears, then upgrade it.
+- A working paper first (arXiv, SSRN, or an NBER series). It's citable right
+  away and it fits how we already work, open and in public.
+- A data or methods journal, the kind that rewards a documented pipeline and a
+  validated measure.
+- An applied economics or policy outlet, if the labor-market framing is the
+  part that carries.
+- A short letter format, if the result turns out clean and tightly scoped.
 
-## 8.2 Co-author (we should really do this)
+We'll let the result pick the home. A null result and a strong positive result
+don't belong in the same place.
 
-The econometrics load is real, and so is the scrutiny on causation. A co-author
-from the network we already have raises both the quality and the odds.
+## 8.2 Collaboration
 
-- Harvard JCHS. They're already our housing anchor. Natural fit.
-- World Bank or IMF research contacts.
-- An academic labor economist who knows search nowcasting or AI-exposure.
+This work is better with the right people on it. The econometrics is real, and
+so is the scrutiny that comes with anything touching causation, so a co-author
+who knows this terrain raises both the quality and the odds.
 
-Action: pick two or three names, send them the brief and this folder, get a yes.
+We'd welcome collaborators working in housing and financial health, development
+economics, and labor economics, especially anyone close to search-based
+nowcasting or AI-exposure measurement. The positioning brief and this folder
+lay out the whole plan in the open. If it's the kind of thing you want to build
+on, we'd love to talk.
 
 ## 8.3 Rough timeline (at the 1.5 to 2 FTE from brief section 7)
 
