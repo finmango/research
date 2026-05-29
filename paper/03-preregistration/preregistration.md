@@ -5,9 +5,13 @@ timestamp (OSF Registries or AsPredicted). For a measurement paper this is the
 single biggest thing we can do for credibility. It's also our answer the day
 someone asks if we fished for the result.
 
-The rule is simple. Finish this and post it before we pull or merge the BLS
+The rule is simple. Finish this and post it before we pull or merge the CPS
 occupational unemployment data, because that's the outcome. The exposure and
 search inputs can be built first. The outcome waits.
+
+The self-contained version we actually upload to OSF lives in
+`osf-preregistration.md`. It inlines the definitions this working file leaves to
+the brief, so it can be read on its own. Keep the two in sync.
 
 ## 3.1 Hypotheses
 
