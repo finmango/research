@@ -1,6 +1,6 @@
 # AI Exposure and Household Financial Stress
 
-*Scott Glasgow, FinMango*
+*Scott Glasgow*
 
 A short draft of the idea, the two papers, and how I'd sequence them. Sharing it early to see who would like to collaborate.
 
