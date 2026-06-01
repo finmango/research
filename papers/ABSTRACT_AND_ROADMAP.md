@@ -4,13 +4,13 @@ One-page draft covering the abstract, the two papers, and the roadmap.
 
 ## In one paragraph
 
-We are building an open, monthly, state-by-occupation signal. It joins how exposed an occupation is to AI with how much financial stress its households are showing in their search behavior, things like searches around money, housing, and food. The signal comes from public AI-exposure indices and actual Google Health Trends probabilities rather than the usual 0 to 100 popularity index, and it runs through a documented pipeline anyone can rerun. That one dataset gives us two papers, and we are aiming both at peer-reviewed academic journals. The first introduces the dataset and reports what it shows. The second tests whether the signal arrives before the official unemployment numbers do.
+Building an open, monthly, state-by-occupation signal. It joins how exposed an occupation is to AI with how much financial stress its households are showing in their search behavior, things like searches around money, housing, and food. The signal comes from public AI-exposure indices and actual Google Health Trends probabilities rather than the usual 0 to 100 popularity index, and it runs through a documented pipeline anyone can rerun. That one dataset gives us two papers, and we are aiming both at peer-reviewed academic journals. The first introduces the dataset and reports what it shows. The second tests whether the signal arrives before the official unemployment numbers do.
 
 Neither paper makes a causal claim. We never say AI caused any household's distress. We measure it, we don't assign blame.
 
 ## Why this is different, and the gap we fill
 
-We checked the current literature, and the honest position is that the novelty here is in the combination, not in any single ingredient. Each piece exists on its own. Nobody has put them together the way we are.
+I checked the current literature, and the honest position is that the novelty here is in the combination, not in any single ingredient. Each piece exists on its own. Nobody has put them together the way we are.
 
 What already exists, so we don't claim it:
 - Measuring AI exposure is crowded. Felten, Eloundou, Brynjolfsson, the ILO, Anthropic's Economic Index, and MIT's new Iceberg Index all rank which jobs are exposed. We are not adding to this. We use these scores as an input.
