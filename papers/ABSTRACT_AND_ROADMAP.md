@@ -1,6 +1,6 @@
 # AI Exposure and Household Financial Stress
 
-One-page draft covering the abstract, the two papers, and the roadmap. Paste-ready for Google Docs.
+One-page draft covering the abstract, the two papers, and the roadmap.
 
 ## In one paragraph
 
