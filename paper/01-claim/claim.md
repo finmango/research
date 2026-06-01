@@ -1,5 +1,8 @@
 # Step 1. Lock the Claim
 
+Two-paper plan: this belongs to Paper 2, the leading-indicator study. Paper 1
+(the dataset descriptor) makes no predictive claim. See ../README.md.
+
 One sentence. Falsifiable. Everything after it answers to it. If a result
 wouldn't change whether that sentence is true, it doesn't go in the paper.
 

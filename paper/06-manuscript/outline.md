@@ -1,5 +1,8 @@
 # Step 6. Manuscript Outline
 
+Two-paper plan: the outline below is Paper 2, the predictive study. Paper 1's
+data-descriptor outline is at the end of this file. See ../README.md.
+
 Blocked until step 5 gives us a result. Don't draft prose before then. We'd just
 be writing a wish list.
 
@@ -61,3 +64,23 @@ About 150 words. See `abstract.md`.
 - D. A link to the replication package from step 7.
 
 Status: blocked, waiting on step 5 / drafting / full draft
+
+## Paper 1. The data descriptor (separate, shorter manuscript)
+
+A data-journal structure, not the empirical one above. The Scientific Data
+shape works well:
+
+- Background and Summary. Why the signal exists, the gap it fills, the brief in
+  a few paragraphs.
+- Methods. The exposure composite and the state rollup, the search ontology and
+  the divergence normalization, the layoff weighting. This is the core.
+- Data Records. The fields, the granularity, the cadence. Points at
+  ../04-data/data-dictionary.md.
+- Technical Validation. The signal is consistent with known layoff events,
+  descriptively, not as prediction. Saturation handled by
+  divergence-from-baseline. Suppression and low-confidence flags.
+- Usage Notes. How to use it, the licence, the caveats (no causation, and no
+  prediction claim in this paper).
+- Code Availability. Points at ../07-reproducibility/.
+
+Status: not started / drafting / full draft

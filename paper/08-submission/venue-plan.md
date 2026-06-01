@@ -1,5 +1,9 @@
 # Step 8. Publication and Collaboration
 
+Two-paper plan: two papers, two homes. Paper 1 (the dataset descriptor) targets
+a data or methods venue. Paper 2 (the leading indicator) goes the
+working-paper-then-journal route. See ../README.md.
+
 We can plan this now. We run it last.
 
 ## 8.1 Where this could go

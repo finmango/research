@@ -1,5 +1,8 @@
 # Step 3. Pre-Registration
 
+Two-paper plan: this is Paper 2's registered design. Paper 1 (the dataset
+descriptor) needs no confirmatory pre-registration. See ../README.md.
+
 Lock the design before we touch any outcome data. Then post it somewhere with a
 timestamp (OSF Registries or AsPredicted). For a measurement paper this is the
 single biggest thing we can do for credibility. It's also our answer the day

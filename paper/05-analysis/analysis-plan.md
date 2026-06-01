@@ -1,5 +1,8 @@
 # Step 5. Analysis
 
+Two-paper plan: this belongs to Paper 2, the leading-indicator study. Paper 1
+makes no predictive claim and runs no lead-lag test. See ../README.md.
+
 This is where we get the headline result and the checks that defend it. This
 step gates the paper. No result, no paper.
 

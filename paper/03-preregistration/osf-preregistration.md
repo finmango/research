@@ -1,5 +1,10 @@
 # Pre-Registration (OSF-ready): Do AI-Exposed Workers Show Financial Stress First?
 
+Scope: this registers the leading-indicator study, which tests whether the
+combined signal leads realized occupational unemployment. The underlying dataset
+is documented and released separately as an open data descriptor; that release
+is descriptive, makes no predictive claim, and needs no pre-registration.
+
 This is the self-contained version of the pre-registration, the one we upload to
 OSF Registries and timestamp. It restates every definition the design depends
 on, so a reader needs nothing else to evaluate it. The internal working copy is
