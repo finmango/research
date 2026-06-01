@@ -8,6 +8,23 @@ We are building an open, monthly, state-by-occupation signal. It joins how expos
 
 Neither paper makes a causal claim. We never say AI caused any household's distress. We measure it, we don't assign blame.
 
+## Why this is different, and the gap we fill
+
+We checked the current literature, and the honest position is that the novelty here is in the combination, not in any single ingredient. Each piece exists on its own. Nobody has put them together the way we are.
+
+What already exists, so we don't claim it:
+- Measuring AI exposure is crowded. Felten, Eloundou, Brynjolfsson, the ILO, Anthropic's Economic Index, and MIT's new Iceberg Index all rank which jobs are exposed. We are not adding to this. We use these scores as an input.
+- Linking AI exposure to unemployment is now active. Frank, Ahn and Moro come closest, and there is recent work from the St. Louis and Dallas Feds and Stanford. But this work uses exposure scores against realized unemployment, mostly looks at it at the same point in time, and the closest paper stops in 2019, before ChatGPT.
+- Reading financial distress from search behavior is well established. Choi and Varian, the FEARS index, and the unemployment-nowcasting literature all show that searches about money, recession, and joblessness can lead the official numbers. We borrow the method, we don't claim it.
+
+The gap nobody has filled. No one has joined a high-frequency household financial-stress search signal to AI exposure and tested it as a leading indicator of occupational unemployment, at the state-by-month level, in the generative-AI period, using actual Google Health Trends probabilities rather than the 0 to 100 index. That combination is the contribution.
+
+How each paper is different on its own terms:
+- Paper 1 is different because the dataset itself does not exist anywhere else. There is no open, monthly, state-by-occupation read on AI-exposed financial stress built from conditional-probability search data. A data paper is judged on whether it is rigorous, documented, and reusable, not on surprise, and this one clears that bar.
+- Paper 2 is different because everyone else measures at the same point in time or looks backward. We test whether the signal arrives before realized occupational unemployment does, and we fix the test in advance so the result is believable either way.
+
+One honest caveat. This was a quiet niche 18 months ago and is busier now, with well-funded groups nearby. That is an argument for moving, not waiting. Two things protect us: getting Paper 1 out fast, and posting Paper 2's pre-registration early so we have a dated flag in the ground. Our access to the Google Health Trends data is also hard for others to replicate, which gives the work a moat.
+
 ## Paper 1: The dataset and what it shows (we do this first)
 
 This is a full academic paper, not just a data release. It does two jobs at once. It introduces the dataset and the pipeline, and it reports what the data shows on its own terms, descriptively. Both halves are publishable, and together they make a paper a journal will take seriously rather than a bare data deposit.
