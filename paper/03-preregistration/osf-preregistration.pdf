@@ -1,0 +1,207 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 3649 >>
+stream
+BT /F2 17 Tf 72 718 Td (Pre-Registration \(OSF-ready\): Do AI-Exposed Workers Show Financial Stress First?) Tj ET
+BT /F1 11 Tf 72 689 Td (Scope: this registers the leading-indicator study, which tests whether the combined signal leads) Tj ET
+BT /F1 11 Tf 72 674.2 Td (realized occupational unemployment. The underlying dataset is documented and released) Tj ET
+BT /F1 11 Tf 72 659.4 Td (separately as an open data descriptor; that release is descriptive, makes no predictive claim,) Tj ET
+BT /F1 11 Tf 72 644.6 Td (and needs no pre-registration.) Tj ET
+BT /F1 11 Tf 72 624.8 Td (This is the self-contained version of the pre-registration, the one we upload to OSF Registries) Tj ET
+BT /F1 11 Tf 72 610 Td (and timestamp. It restates every definition the design depends on, so a reader needs nothing else) Tj ET
+BT /F1 11 Tf 72 595.2 Td (to evaluate it. The internal working copy is preregistration.md. The positioning brief it draws) Tj ET
+BT /F1 11 Tf 72 580.4 Td (from is ../../AI_ECONOMIC_IMPACT_2026.md.) Tj ET
+BT /F1 11 Tf 72 560.6 Td (Status: drafted and self-contained. Pending co-author sign-off, then post to OSF. We have not) Tj ET
+BT /F1 11 Tf 72 545.8 Td (accessed the outcome data. See section 2.) Tj ET
+BT /F2 13.5 Tf 72 513 Td (0. Administrative) Tj ET
+BT /F1 11 Tf 72 492 Td (-   Title. Do AI-Exposed Workers Show Financial Stress First? A State by Occupation) Tj ET
+BT /F1 11 Tf 72 477.5 Td (    Leading-Indicator Approach.) Tj ET
+BT /F1 11 Tf 72 463 Td (-   Authors. [names, affiliations, ORCIDs to fill in]) Tj ET
+BT /F1 11 Tf 72 448.5 Td (-   Corresponding author. [fill in]) Tj ET
+BT /F1 11 Tf 72 434 Td (-   Version. v1 draft. Date set on posting.) Tj ET
+BT /F1 11 Tf 72 419.5 Td (-   License. Open, MIT, matching the repository.) Tj ET
+BT /F2 13.5 Tf 72 387 Td (1. Background and aim) Tj ET
+BT /F1 11 Tf 72 366 Td (Official labor statistics confirm AI-driven displacement only after a lag of quarters. By then the) Tj ET
+BT /F1 11 Tf 72 351.2 Td (exposed households have already absorbed the financial stress. We ask whether a combined) Tj ET
+BT /F1 11 Tf 72 336.4 Td (AI-exposure and household financial-stress search signal leads realized occupational) Tj ET
+BT /F1 11 Tf 72 321.6 Td (unemployment by one to three months, among the most exposed occupations, across US states,) Tj ET
+BT /F1 11 Tf 72 306.8 Td (in the generative-AI period. This is a measurement and prediction study, not a causal one. We) Tj ET
+BT /F1 11 Tf 72 292 Td (never claim AI caused any specific household's distress.) Tj ET
+BT /F2 13.5 Tf 72 259.2 Td (2. Data-access statement \(why we register now\)) Tj ET
+BT /F1 11 Tf 72 238.2 Td (As of registration we have built, or will build, only the inputs: the exposure composite and the) Tj ET
+BT /F1 11 Tf 72 223.4 Td (search signal. We have not accessed, pulled, summarized, or inspected the outcome series) Tj ET
+BT /F1 11 Tf 72 208.6 Td (\(CPS occupational unemployment\) for the test window. We post this design first, then pull the) Tj ET
+BT /F1 11 Tf 72 193.8 Td (outcome. That ordering is the credibility claim, so we state it plainly and date it.) Tj ET
+BT /F2 13.5 Tf 72 161 Td (3. Hypotheses) Tj ET
+BT /F1 11 Tf 72 140 Td (-   H1 \(confirmatory, primary\). The combined AI-distress signal at month t is positively related) Tj ET
+BT /F1 11 Tf 72 125.5 Td (    to realized occupational unemployment at t+k, for k of 1, 2 and 3 months, among) Tj ET
+BT /F1 11 Tf 72 111 Td (    high-exposure occupations \(top tercile of the exposure composite\). Operationally, the sum of) Tj ET
+BT /F1 11 Tf 72 96.5 Td (    the distributed-lead coefficients over k is positive at the threshold in section 6.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3898 >>
+stream
+BT /F1 11 Tf 72 720 Td (-   H2 \(confirmatory, placebo\). No such lead appears among low-exposure occupations \(bottom) Tj ET
+BT /F1 11 Tf 72 705.5 Td (    tercile\).) Tj ET
+BT /F1 11 Tf 72 691 Td (-   H3 \(secondary\). Augmentation-coded search terms do not predict unemployment;) Tj ET
+BT /F1 11 Tf 72 676.5 Td (    substitution-coded terms do.) Tj ET
+BT /F2 13.5 Tf 72 644 Td (4. Variables) Tj ET
+BT /F2 11.5 Tf 72 615 Td (4.1 Predictor: the combined AI-distress signal) Tj ET
+BT /F1 11 Tf 72 597 Td (Two pieces, an exposure layer and a search layer.) Tj ET
+BT /F1 11 Tf 72 577.2 Td (Exposure composite. For each SOC-coded occupation we build a composite from three) Tj ET
+BT /F1 11 Tf 72 562.4 Td (published indices: Felten, Raj and Seamans \(AIOE, 2021\); Eloundou, Manning, Mishkin and) Tj ET
+BT /F1 11 Tf 72 547.6 Td (Rock \(GPT exposure, 2023\); and Brynjolfsson, Mitchell and Rock \(suitability for machine) Tj ET
+BT /F1 11 Tf 72 532.8 Td (learning, 2018\), where available. Each index is z-scored across occupations, then averaged) Tj ET
+BT /F1 11 Tf 72 518 Td (with equal weights by default. We roll the occupation scores up to states with BLS OEWS state) Tj ET
+BT /F1 11 Tf 72 503.2 Td (employment shares:) Tj ET
+BT /F3 7.7551 Tf 78 480.4 Td (AIExposure_state = sum over occ of \( employment_share[state, occ] x ExposureScore[occ] \)) Tj ET
+BT /F1 11 Tf 72 465.931 Td (The high-exposure group is the top tercile of the composite, employment-weighted across) Tj ET
+BT /F1 11 Tf 72 451.131 Td (detailed occupations. The low-exposure group is the bottom tercile, used as the H2 placebo. The) Tj ET
+BT /F1 11 Tf 72 436.331 Td (confirmatory test \(H1, H2\) runs on these two groups.) Tj ET
+BT /F1 11 Tf 72 416.531 Td (Occupation clusters \(the descriptive layer\). For the public cube and for the secondary by-cluster) Tj ET
+BT /F1 11 Tf 72 401.731 Td (breakout we use six SOC major groups, chosen because their exposure varies widely:) Tj ET
+BT /F1 11 Tf 72 381.931 Td (1.  Office and administrative support \(SOC 43\), high exposure) Tj ET
+BT /F1 11 Tf 72 367.431 Td (2.  Computer and mathematical \(SOC 15\), mixed) Tj ET
+BT /F1 11 Tf 72 352.931 Td (3.  Healthcare practitioners \(SOC 29\), low to moderate) Tj ET
+BT /F1 11 Tf 72 338.431 Td (4.  Production \(SOC 51\), moderate) Tj ET
+BT /F1 11 Tf 72 323.931 Td (5.  Transportation and material moving \(SOC 53\), moderate) Tj ET
+BT /F1 11 Tf 72 309.431 Td (6.  Education, training and library \(SOC 25\), moderate) Tj ET
+BT /F1 11 Tf 72 289.931 Td (Search layer. We pull Google Health Trends volumes for an AI-distress ontology in four) Tj ET
+BT /F1 11 Tf 72 275.131 Td (categories:) Tj ET
+BT /F1 11 Tf 72 255.331 Td (-   Displacement awareness: "will AI take my job", "AI replaced me", "job to AI") Tj ET
+BT /F1 11 Tf 72 240.831 Td (-   Reskilling intent: "reskill from [occupation]", "career change at 40", "learn to code 2026") Tj ET
+BT /F1 11 Tf 72 226.331 Td (-   Acute distress: "laid off tech", "severance negotiation", "unemployment after layoff") Tj ET
+BT /F1 11 Tf 72 211.831 Td (-   Adaptation, tracked separately as augmentation rather than substitution: "use ChatGPT at) Tj ET
+BT /F1 11 Tf 72 197.331 Td (    work", "AI tools for [occupation]") Tj ET
+BT /F1 11 Tf 72 177.831 Td (Each term passes a signal-to-noise screen before it goes live. We normalize each series as) Tj ET
+BT /F1 11 Tf 72 163.031 Td (divergence from a trailing 52-week baseline, with robustness at 26 and 104 weeks, and we pull) Tj ET
+BT /F1 11 Tf 72 148.231 Td (from January 2022 so the divergence is defined from the first test month. Google Health Trends) Tj ET
+BT /F1 11 Tf 72 133.431 Td (is geographic \(state by week\), so the search layer is measured at the state level; the) Tj ET
+BT /F1 11 Tf 72 118.631 Td (occupational content of the test comes from stratifying the outcome by exposure.) Tj ET
+BT /F2 11.5 Tf 72 90.8306 Td (4.2 Outcome) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 3844 >>
+stream
+BT /F1 11 Tf 72 720 Td (Realized unemployment from CPS microdata \(IPUMS-CPS\), computed at the occupation level) Tj ET
+BT /F1 11 Tf 72 705.2 Td (and then aggregated, from the same micro-data, two ways: into the high and low exposure) Tj ET
+BT /F1 11 Tf 72 690.4 Td (groups for the confirmatory test, and into the six clusters for the descriptive cube and the) Tj ET
+BT /F1 11 Tf 72 675.6 Td (secondary breakouts. Monthly, on a 3-month rolling basis to tame CPS sampling noise. The) Tj ET
+BT /F1 11 Tf 72 660.8 Td (reference period is the survey month. We fix the vintage to first release so revisions cannot) Tj ET
+BT /F1 11 Tf 72 646 Td (move the result. Robustness brackets: LAUS state unemployment, and national unemployment) Tj ET
+BT /F1 11 Tf 72 631.2 Td (by occupation cluster.) Tj ET
+BT /F2 11.5 Tf 72 603.4 Td (4.3 Secondary grounding input \(not in the confirmatory test\)) Tj ET
+BT /F1 11 Tf 72 585.4 Td (To ground the search signal in real events we compute an exposure-weighted layoff intensity) Tj ET
+BT /F1 11 Tf 72 570.6 Td (from WARN Act notices and BLS JOLTS:) Tj ET
+BT /F3 7.7551 Tf 78 547.8 Td (AILayoffIntensity_state,q = sum over event of \( workers x ExposureScore[occ] \) / labor_force_state) Tj ET
+BT /F1 11 Tf 72 533.331 Td (This is a validation and case-study input, not a predictor in the confirmatory regression.) Tj ET
+BT /F2 13.5 Tf 72 500.531 Td (5. Analysis plan) Tj ET
+BT /F1 11 Tf 72 479.531 Td (Primary model. A panel distributed-lead regression of occupational unemployment at t+k on the) Tj ET
+BT /F1 11 Tf 72 464.731 Td (standardized signal at t, with leads at k of 1, 2 and 3, group-by-state and month fixed effects, and) Tj ET
+BT /F1 11 Tf 72 449.931 Td (standard errors clustered by state and by exposure group. The decision statistic is the sum of) Tj ET
+BT /F1 11 Tf 72 435.131 Td (the three lead coefficients in the high-exposure group.) Tj ET
+BT /F1 11 Tf 72 415.331 Td (Out-of-sample check. The signal-augmented model must also beat an autoregressive baseline on) Tj ET
+BT /F1 11 Tf 72 400.531 Td (RMSE at horizon k, in a rolling-window evaluation.) Tj ET
+BT /F2 13.5 Tf 72 367.731 Td (6. Inference criteria \(the number that counts\)) Tj ET
+BT /F1 11 Tf 72 346.731 Td (-   Primary. The distributed-lead coefficient sum is positive at p < 0.05, two-sided.) Tj ET
+BT /F1 11 Tf 72 332.231 Td (-   Multiple comparisons. There is exactly one confirmatory test, the pooled high-exposure) Tj ET
+BT /F1 11 Tf 72 317.731 Td (    lead-coefficient sum. Every by-state, by-cluster and by-k breakout is secondary and reported) Tj ET
+BT /F1 11 Tf 72 303.231 Td (    with Benjamini-Hochberg FDR control at q of 0.10, labeled exploratory.) Tj ET
+BT /F1 11 Tf 72 288.731 Td (-   Confirmatory versus exploratory. Anything not named here as confirmatory is exploratory,) Tj ET
+BT /F1 11 Tf 72 274.231 Td (    and labeled as such in the paper.) Tj ET
+BT /F2 13.5 Tf 72 241.731 Td (7. Exclusions and suppression) Tj ET
+BT /F1 11 Tf 72 220.731 Td (-   Suppress any cell \(state, exposure group or cluster, and month\) with fewer than 50) Tj ET
+BT /F1 11 Tf 72 206.231 Td (    labor-force respondents in the 3-month pooled window.) Tj ET
+BT /F1 11 Tf 72 191.731 Td (-   Flag, but do not drop, any search series below its volume floor: a state-week below the 10th) Tj ET
+BT /F1 11 Tf 72 177.231 Td (    percentile of that term's national distribution is low-confidence. Drop a series only if it is) Tj ET
+BT /F1 11 Tf 72 162.731 Td (    zero or near-zero for more than half the window. Floors can be tightened after we see the) Tj ET
+BT /F1 11 Tf 72 148.231 Td (    volume distributions, never loosened, and any change is documented.) Tj ET
+BT /F2 13.5 Tf 72 115.731 Td (8. Sample and period) Tj ET
+BT /F1 11 Tf 72 94.7306 Td (All 50 states plus DC. Test window from January 2023 \(post-ChatGPT, the generative-AI) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 2943 >>
+stream
+BT /F1 11 Tf 72 720 Td (period\) to the data-freeze month. Search series pulled from January 2022 for the baseline.) Tj ET
+BT /F1 11 Tf 72 705.2 Td (Monthly frequency.) Tj ET
+BT /F2 13.5 Tf 72 672.4 Td (9. What counts as support, and the kill condition) Tj ET
+BT /F1 11 Tf 72 651.4 Td (Support means the primary test clears the threshold in section 6, the H2 placebo shows no) Tj ET
+BT /F1 11 Tf 72 636.6 Td (comparable lead, and the result survives the search-saturation check \(the same result across) Tj ET
+BT /F1 11 Tf 72 621.8 Td (different baseline windows\).) Tj ET
+BT /F1 11 Tf 72 602 Td (Kill condition. If, after four quarters of data, the signal does not show a statistically significant) Tj ET
+BT /F1 11 Tf 72 587.2 Td (positive lead-lag relationship with realized occupational unemployment in the high-exposure) Tj ET
+BT /F1 11 Tf 72 572.4 Td (group at the threshold above, we treat the predictive claim as unsupported, we publish that, and) Tj ET
+BT /F1 11 Tf 72 557.6 Td (we either re-scope to a descriptive-only signal or shelve it. We commit to this now, while we) Tj ET
+BT /F1 11 Tf 72 542.8 Td (still do not know the answer.) Tj ET
+BT /F2 13.5 Tf 72 510 Td (10. Open specification choices to settle at sign-off) Tj ET
+BT /F1 11 Tf 72 489 Td (Three construction choices are not yet pinned. A credible registration cannot leave them vague,) Tj ET
+BT /F1 11 Tf 72 474.2 Td (so we name them here and lock them with the co-author before posting. Current defaults are in) Tj ET
+BT /F1 11 Tf 72 459.4 Td (brackets.) Tj ET
+BT /F1 11 Tf 72 439.6 Td (1.  Search occupational resolution. Health Trends is geographic, not occupational. [Default:) Tj ET
+BT /F1 11 Tf 72 425.1 Td (    keep the predictor at the state level and carry the occupational content on the outcome side,) Tj ET
+BT /F1 11 Tf 72 410.6 Td (    through the exposure groups.] The alternative apportions the state search signal to) Tj ET
+BT /F1 11 Tf 72 396.1 Td (    occupation groups by employment share, which adds assumptions.) Tj ET
+BT /F1 11 Tf 72 381.6 Td (2.  The confirmatory unit. [Default: two exposure groups, the top and bottom tercile of the) Tj ET
+BT /F1 11 Tf 72 367.1 Td (    composite over detailed occupations, which are well powered and give a clean placebo.]) Tj ET
+BT /F1 11 Tf 72 352.6 Td (    The six-cluster cube stays descriptive and secondary.) Tj ET
+BT /F1 11 Tf 72 338.1 Td (3.  How exposure enters. [Default: as a group definition, top versus bottom tercile, with a) Tj ET
+BT /F1 11 Tf 72 323.6 Td (    continuous exposure-weighted specification as robustness.]) Tj ET
+BT /F2 13.5 Tf 72 291.1 Td (11. Registration record) Tj ET
+BT /F1 11 Tf 72 270.1 Td (-   Platform. OSF Registries.) Tj ET
+BT /F1 11 Tf 72 255.6 Td (-   URL. ___ \(fill on posting\)) Tj ET
+BT /F1 11 Tf 72 241.1 Td (-   Timestamp. ___ \(fill on posting\)) Tj ET
+BT /F1 11 Tf 72 226.6 Td (-   Frozen commit of this file. ___ \(commit hash of the signed-off version\)) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000211 00000 n 
+0000000286 00000 n 
+0000000354 00000 n 
+0000004055 00000 n 
+0000004201 00000 n 
+0000008151 00000 n 
+0000008297 00000 n 
+0000012194 00000 n 
+0000012342 00000 n 
+0000015338 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+15486
+%%EOF

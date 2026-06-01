@@ -1,5 +1,8 @@
 # Step 2. Literature Positioning
 
+Two-paper plan: this serves both papers. It frames Paper 1's data contribution
+and Paper 2's predictive gap. See ../README.md.
+
 Know what's already out there. Then we can say, in one paragraph, what we do
 that nobody else does. Figure on 20 to 25 focused reads across three areas.
 

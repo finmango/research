@@ -1,5 +1,8 @@
 # Step 4. Data Assembly
 
+Two-paper plan: shared foundation. The frozen dataset is Paper 1's contribution
+and Paper 2's input. See ../README.md.
+
 This is the bulk of the real work. Roughly phases 1 to 3 of the roadmap in the
 brief. One frozen, documented dataset that the analysis reads from. That's the
 target.

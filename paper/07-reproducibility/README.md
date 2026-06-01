@@ -1,5 +1,8 @@
 # Step 7. Reproducibility and the Replication Package
 
+Two-paper plan: shared foundation for both papers, and a selling point for
+Paper 1 (the dataset descriptor). See ../README.md.
+
 The goal: anyone can clone the repo and rebuild every number and every figure.
 It's free credibility, some venues require it, and it's how we already work.
 Open by default, MIT. Build this alongside steps 4 and 5, not after.
