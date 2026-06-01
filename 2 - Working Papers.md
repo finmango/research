@@ -2,7 +2,7 @@
 * If AI breaks parts of the labor market, the first place it shows up isn't GDP. It's households. The official data confirms it quarters late, after the stress has already worked through people's savings and credit. We're tackling this as two papers off one dataset.
 * Paper 1, a data descriptor. We build the exposure layer from published indices (Felten, Eloundou, Brynjolfsson) mapped to states with BLS OEWS employment shares, add an AI-distress search ontology on top of the running FinMango Financial Health Barometer, and release the combined state by occupation signal as an open, documented, MIT-licensed dataset. Descriptive, with no predictive or causal claim.
 * Paper 2, a leading-indicator study. Using that dataset, we test, pre-registered, whether the combined signal leads realized occupational unemployment by one to three months in the most AI-exposed occupations, and where. Measurement, not causation.
-* Positioning brief and full research plan are in the repo: AI_ECONOMIC_IMPACT_2026.md and the paper/ folder.
+* Positioning brief and full research plan are in the repo: AI_ECONOMIC_IMPACT_2026.md and the papers/ folder.
 
 #### Predictive Signals: Do Mental Health-Related Google Searches Reflect Eviction Trends in Real Estate?
 * with Eren Cifi, PhD - Austin Peay State University
