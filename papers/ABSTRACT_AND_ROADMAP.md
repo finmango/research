@@ -12,7 +12,7 @@ To be clear up front: neither paper claims AI caused anyone's financial distress
 
 ## Why this is different, and the gap I'm filling
 
-I spent time in the current literature, and the honest version is that what's new here is the combination. The individual ingredients all exist. What I haven't found anywhere is the three of them stitched together.
+I spent time in the current literature, and I feel like what's new here is the combination. The individual ingredients all exist. What I haven't found anywhere is the three of them stitched together.
 
 What's already out there, so I'm not pretending it's mine:
 - Measuring AI exposure is a crowded field. Felten, Eloundou, Brynjolfsson, the ILO, Anthropic's Economic Index, MIT's new Iceberg Index, they all rank which jobs are exposed. I just use these scores as an input.
@@ -21,7 +21,7 @@ What's already out there, so I'm not pretending it's mine:
 
 So here's the opening. Nobody has taken a high-frequency household financial-stress search signal, joined it to AI exposure, and tested it as a leading indicator of occupational unemployment, at the state-by-month level, in the generative-AI period, using real Health Trends probabilities instead of the 0 to 100 index. That's the contribution.
 
-A word on why each paper survives alone. Paper 1 works because the dataset simply doesn't exist yet. There's no open, monthly, state-by-occupation read on this built from conditional-probability search data, and data papers get judged on whether they're rigorous and reusable, which this will be. Paper 2 works because everyone else is either measuring in the present or looking back, and I'm asking whether the signal gets out ahead of the realized data, with the test locked down in advance so the answer counts either way.
+A word on why each paper survives alone... Paper 1 works because the dataset simply doesn't exist yet. There's no open, monthly, state-by-occupation read on this built from conditional-probability search data, and data papers get judged on whether they're rigorous and reusable, which this will be. Paper 2 works because everyone else is either measuring in the present or looking back, and I'm asking whether the signal gets out ahead of the realized data, with the test locked down in advance so the answer counts either way.
 
 A risk I'd rather name than hide: this was a quiet corner 18 months ago and it's getting busy, with some well-funded groups circling. To me that says move now. Two things give me cover, getting Paper 1 out the door quickly, and time-stamping Paper 2's pre-registration early. The Health Trends access is also hard to replicate, which helps.
 
