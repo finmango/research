@@ -9,7 +9,7 @@ This is the self-contained version of the pre-registration, the one we upload to
 OSF Registries and timestamp. It restates every definition the design depends
 on, so a reader needs nothing else to evaluate it. The internal working copy is
 `preregistration.md`. The positioning brief it draws from is
-`../../AI_ECONOMIC_IMPACT_2026.md`.
+`../../../AI_ECONOMIC_IMPACT_2026.md`.
 
 Status: drafted and self-contained. Pending co-author sign-off, then post to OSF.
 We have not accessed the outcome data. See section 2.

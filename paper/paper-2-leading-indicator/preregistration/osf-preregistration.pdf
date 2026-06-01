@@ -16,7 +16,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Courier >>
 endobj
 6 0 obj
-<< /Length 3649 >>
+<< /Length 3652 >>
 stream
 BT /F2 17 Tf 72 718 Td (Pre-Registration \(OSF-ready\): Do AI-Exposed Workers Show Financial Stress First?) Tj ET
 BT /F1 11 Tf 72 689 Td (Scope: this registers the leading-indicator study, which tests whether the combined signal leads) Tj ET
@@ -26,7 +26,7 @@ BT /F1 11 Tf 72 644.6 Td (and needs no pre-registration.) Tj ET
 BT /F1 11 Tf 72 624.8 Td (This is the self-contained version of the pre-registration, the one we upload to OSF Registries) Tj ET
 BT /F1 11 Tf 72 610 Td (and timestamp. It restates every definition the design depends on, so a reader needs nothing else) Tj ET
 BT /F1 11 Tf 72 595.2 Td (to evaluate it. The internal working copy is preregistration.md. The positioning brief it draws) Tj ET
-BT /F1 11 Tf 72 580.4 Td (from is ../../AI_ECONOMIC_IMPACT_2026.md.) Tj ET
+BT /F1 11 Tf 72 580.4 Td (from is ../../../AI_ECONOMIC_IMPACT_2026.md.) Tj ET
 BT /F1 11 Tf 72 560.6 Td (Status: drafted and self-contained. Pending co-author sign-off, then post to OSF. We have not) Tj ET
 BT /F1 11 Tf 72 545.8 Td (accessed the outcome data. See section 2.) Tj ET
 BT /F2 13.5 Tf 72 513 Td (0. Administrative) Tj ET
@@ -193,15 +193,15 @@ xref
 0000000211 00000 n 
 0000000286 00000 n 
 0000000354 00000 n 
-0000004055 00000 n 
-0000004201 00000 n 
-0000008151 00000 n 
-0000008297 00000 n 
-0000012194 00000 n 
-0000012342 00000 n 
-0000015338 00000 n 
+0000004058 00000 n 
+0000004204 00000 n 
+0000008154 00000 n 
+0000008300 00000 n 
+0000012197 00000 n 
+0000012345 00000 n 
+0000015341 00000 n 
 trailer
 << /Size 14 /Root 1 0 R >>
 startxref
-15486
+15489
 %%EOF
