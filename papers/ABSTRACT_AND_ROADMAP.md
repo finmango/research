@@ -104,3 +104,26 @@ Paper 2, leading indicator
 2. Search saturation is the first thing a reviewer attacks. Show the divergence-from-baseline approach actually working. Don't just assert it.
 3. Augmentation is not substitution. Keep them apart everywhere.
 4. Pre-register Paper 2 before we see its outcomes. That one move is what makes the predictive result believable later.
+
+## References
+
+The work we point to in the gap section, grouped the same way.
+
+AI-exposure measurement (our inputs and the crowded part):
+- Felten, Raj and Seamans (2021), Occupational, industry, and geographic exposure to artificial intelligence, Strategic Management Journal. https://sms.onlinelibrary.wiley.com/doi/full/10.1002/smj.3286
+- Eloundou, Manning, Mishkin and Rock (2023), GPTs are GPTs: an early look at the labor market impact potential of large language models. https://arxiv.org/abs/2303.10130
+- Brynjolfsson, Mitchell and Rock (2018), What can machines learn, and what does it mean for occupations and the economy?, AEA Papers and Proceedings. https://www.aeaweb.org/articles?id=10.1257/pandp.20181019
+- Anthropic Economic Index, labor market impacts of AI. https://www.anthropic.com/research/labor-market-impacts
+- MIT Iceberg Index (2025), measuring workforce exposure in the AI economy. https://arxiv.org/pdf/2510.25137
+
+Linking AI exposure to unemployment (the active neighbors):
+- Frank, Ahn and Moro (2025), AI exposure predicts unemployment risk, PNAS Nexus. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11983276/ and preprint https://arxiv.org/pdf/2308.02624
+- St. Louis Fed (2025), Is AI contributing to rising unemployment? https://www.stlouisfed.org/on-the-economy/2025/aug/is-ai-contributing-unemployment-evidence-occupational-variation
+- Dallas Fed (2026), Young workers' employment drops in occupations with high AI exposure. https://www.dallasfed.org/research/economics/2026/0106
+- AI-exposed jobs deteriorated before ChatGPT (2026 preprint). https://arxiv.org/pdf/2601.02554
+- PIIE (2026), Research on AI and the labor market is still in the first inning. https://www.piie.com/blogs/realtime-economics/2026/research-ai-and-labor-market-still-first-inning
+
+Reading distress from search behavior (the method we borrow):
+- Choi and Varian (2012), Predicting the present with Google Trends, Economic Record. https://onlinelibrary.wiley.com/doi/10.1111/j.1475-4932.2012.00809.x
+- Da, Engelberg and Gao (2015), The sum of all FEARS: investor sentiment and asset prices, Review of Financial Studies. https://academic.oup.com/rfs/article-abstract/28/1/1/1682440
+- Grybauskas et al. (2023), Nowcasting unemployment using neural networks and multi-dimensional Google Trends data, Economies 11(5):130. https://www.mdpi.com/2227-7099/11/5/130
