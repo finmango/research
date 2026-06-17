@@ -1,9 +1,5 @@
 Preliminary research serves as our intellectual compass, allowing us to explore promising directions before committing substantial resources to full academic studies. Working primarily with University of Virginia students, these initial investigations help us identify viable research questions, test methodologies, and assess potential impact. Similar to white papers in industry, our preliminary research documents emerging insights and foundational discoveries that may later evolve into comprehensive published works. This exploratory approach enables us to remain nimble, pursue innovative paths, and cultivate student researchers while efficiently allocating our scholarly resources toward the most promising avenues of inquiry.
 
-### Acknowledging the Barriers Returning Citizens Face
-* This presentation aims to understand and brainstorm solutions for the wide-ranging barriers faced by returning citizens, identified through interviews. Additionally, it seeks to prioritize which of these issues can feasibly be addressed.
-* Learn more [here](https://drive.google.com/file/d/1-hCuYY9u1JamtS9D6J7SSCSITBeRrSeL/view?usp=sharing)
-
 ### A recommendation promoting affordable housing solutions through an accessible calculator and strategic partnerships
 * This deliverable proposes improving financial health through affordable housing solutions with a two-pronged approach: 1) developing a housing affordability calculator that combines market data and connects users to available grants, and 2) establishing strategic partnerships with organizations like LISC to maximize community impact through shared resources and expertise.
 * Learn more [here](https://drive.google.com/file/d/1f66Mv64vBMVF4POt-gb6QqypWVBtCZeT/view?usp=sharing)
@@ -27,6 +23,10 @@ Preliminary research serves as our intellectual compass, allowing us to explore 
 ### Financial Health Measurement Toolkit
 * This report breaks down financial health, analyzes existing financial health surveys, and suggestions ways to move forward. We currently host an up-to-date of financial health measurement tools for thought leaders and policy makers interested.
 * Learn more [here](https://drive.google.com/file/d/1We_uKQtuPK2e7j8BOuDsgceAiVWb1neO/view?usp=sharing)
+
+### Acknowledging the Barriers Returning Citizens Face
+* This presentation aims to understand and brainstorm solutions for the wide-ranging barriers faced by returning citizens, identified through interviews. Additionally, it seeks to prioritize which of these issues can feasibly be addressed.
+* Learn more [here](https://drive.google.com/file/d/1-hCuYY9u1JamtS9D6J7SSCSITBeRrSeL/view?usp=sharing)
 
 ### Comparative Study: Argentina & Brazil
 * Financial illiteracy is widespread in Argentina's lower-income households, limiting access to credit and economic growth, necessitating improved public-private partnerships for better financial education and opportunities.
