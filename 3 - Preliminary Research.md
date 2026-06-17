@@ -9,6 +9,7 @@ Preliminary research serves as our intellectual compass, allowing us to explore 
   * [Chicago, IL — Case Study](preliminary-research/food-insecurity-snap-seed-f25/Chicago_IL_Case_Study.pdf)
   * [Kansas City, MO — Case Study](preliminary-research/food-insecurity-snap-seed-f25/Kansas_City_MO_Case_Study.pdf)
   * [Twin Falls, ID — Case Study](preliminary-research/food-insecurity-snap-seed-f25/Twin_Falls_ID_Case_Study.pdf)
+  * [Wolfe County, KY — Case Study](preliminary-research/food-insecurity-snap-seed-f25/Wolfe_County_KY_Case_Study.pdf)
 
 ### A recommendation promoting affordable housing solutions through an accessible calculator and strategic partnerships
 * This deliverable proposes improving financial health through affordable housing solutions with a two-pronged approach: 1) developing a housing affordability calculator that combines market data and connects users to available grants, and 2) establishing strategic partnerships with organizations like LISC to maximize community impact through shared resources and expertise.
